@@ -1,15 +1,15 @@
-// Pantalla2
+// Pantalla10
 import 'package:flutter/material.dart';
 
-class Pantalla2_0327 extends StatelessWidget {
-  const Pantalla2_0327({Key? key}) : super(key: key);
+class Pantalla10_0327 extends StatelessWidget {
+  const Pantalla10_0327({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pantalla 2 Castaneda"),
-        backgroundColor: Color(0xff6769ea),
+        title: Text("Pantalla 10 Castaneda"),
+        backgroundColor: Color(0xfffff7a4),
       ),
       body: Center(
         child: Column(
@@ -22,34 +22,31 @@ class Pantalla2_0327 extends StatelessWidget {
                 color: Color(0xff4b4b4b),
               ),
             ),
+            //here
             Container(
-              height: 130,
-              width: double.infinity,
+              margin: EdgeInsets.all(40),
+              padding: EdgeInsets.all(20),
               decoration: BoxDecoration(
-                color: Color(0xff0e0e6b),
-                borderRadius: BorderRadius.only(
-                  bottomRight: Radius.circular(50),
-                  bottomLeft: Radius.circular(50),
-                ),
+                color: Color(0xfffff2a6),
+                borderRadius: BorderRadius.circular(30.0),
                 boxShadow: [
                   BoxShadow(
-                    color: Color(0xaa585858),
-                    offset: Offset(9, 9),
+                    color: Color(0xfffee65b),
+                    offset: Offset(7, 7),
                     blurRadius: 6,
                   ),
                 ],
               ),
-              alignment: Alignment.center,
               child: Text(
-                'Diseño 2 ',
+                'Diseño 10',
                 style: TextStyle(
-                  fontSize: 30,
-                  color: Colors.white,
+                  fontSize: 38,
+                  color: Color(0xff535353),
                 ),
               ),
             ),
             Container(
-              child: Text("Diseño Mat.21308051280327"),
+              child: Text("Diseño10 Mat.21308051280327"),
               padding: EdgeInsets.all(25),
             )
           ],
